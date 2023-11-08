@@ -225,6 +225,10 @@ def user_stats(df):
 def show_data(df):
     '''
     Show 5 rows of given city dataset.
+
+    Args: a dataframe
+
+    Return: 5 rows of dataset
     '''
     RESPONSE_LIST = ['yes', 'no']
     respond = ''
