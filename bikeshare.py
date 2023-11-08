@@ -109,7 +109,13 @@ def load_data(city, month, day):
 
 #Function to calculate all the time-related statistics for the chosen data
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """
+    Displays statistics on the most frequent times of travel.
+
+    Args: a dataframe
+
+    Returns: time taken to perform a calculation (in seconds)
+    """
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
